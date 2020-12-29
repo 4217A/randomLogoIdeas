@@ -90,8 +90,9 @@ class HomePage {
         renderHook.textContent = '';
         afterCanvas.textContent = '';
 
-        //title
-        myRenderHelper.render("h1", [], [], [], "Random Logo Ideas", renderHook);
+        //space
+        myRenderHelper.render("br", [], [], [], "", renderHook);
+        myRenderHelper.render("br", [], [], [], "", renderHook);
 
         //logo idea
         myRandomLogoIdea.render(c, 0, 3, w, h);
