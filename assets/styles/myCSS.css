@@ -12,20 +12,21 @@ h1 {
 }
 
  button {
-    background-color: #333;
-    background-image: linear-gradient(to right, #333);
+    background-color: #e0e0e0;
+    background-image: linear-gradient(to right, #e0e0e0);
     border: none;
     border-radius: 2em;
     box-shadow: 0 3px 10px #333;
-    color: #f9f9f9;
+    color: #4a4a4a;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 1em;
-    font-weight: 700;
+    font-weight: 400;
     padding: 0.5em;
     width: 18em;
  }
 
  button:active {
-    background-color: #333;
+    background-color: #e0e0e0;
     background-image: none;
     border: none;
     box-shadow: 0 3px 8px #555;
