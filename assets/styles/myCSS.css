@@ -11,9 +11,13 @@ h1 {
     text-shadow: 0 1px 10px #999;
 }
 
+p {
+    margin-bottom: 10vh;
+}
+
  button {
     background-color: #f9f9f9;
-    /*background-image: linear-gradient(from top to bottom, #f9f9f9, #e0e0e0);*/
+    /*background-image: linear-gradient(from top to bottom, #f9f9f9 0%, #e0e0e0 100%);*/
     border: none;
     border-radius: 2em;
     box-shadow: 0 3px 10px #555;
