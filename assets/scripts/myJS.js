@@ -91,8 +91,7 @@ class HomePage {
         afterCanvas.textContent = '';
 
         //space
-        myRenderHelper.render("br", [], [], [], "", renderHook);
-        myRenderHelper.render("br", [], [], [], "", renderHook);
+        myRenderHelper.render("p", [], [], [], "", renderHook);
 
         //logo idea
         myRandomLogoIdea.render(c, 0, 3, w, h);
